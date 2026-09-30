@@ -1,0 +1,22 @@
+name: lab5_xylophone
+description: A colorful Flutter xylophone that plays bundled musical notes.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  audioplayers: ^6.8.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
